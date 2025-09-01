@@ -242,7 +242,12 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
-
+.footer-container {
+	padding-top: 15px;
+	display: flex;
+	justify-content: center;
+	gap: 50%;
+}
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
