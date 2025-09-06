@@ -10,9 +10,9 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
-	<link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" width="1920px" height="887px">
+	<link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" width="1920px"
+		height="887px">
 
-	<!-- rajout des balises meta -->
 	<meta charset="UTF-8">
 	<meta name="description"
 		content="Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée dans les portraits, les mariages et les concerts.">
@@ -20,6 +20,19 @@
 	<meta name="keywords"
 		content="photographe, photographe bordeaux, photographe mariage, photographe portrait, photographe concert">
 	<meta name="robots" content="index, follow">
+	<meta property="og:title" content="Nina Carducci - Photographe professionnelle à Bordeaux">
+	<meta property="og:description"
+		content="Spécialisée dans les portraits, les mariages et les concerts. Découvrez mon portfolio et mes services.">
+	<meta property="og:image" content="https://nina-carducci.github.io/assets/images/nina.webp">
+	<meta property="og:url" content="https://nina-carducci.github.io/">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="fr_FR">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nina Carducci - Photographe Bordeaux">
+	<meta name="twitter:description" content="Portraits, mariages et concerts. Photographe professionnelle à Bordeaux.">
+	<meta name="twitter:image" content="https://nina-carducci.github.io/assets/images/nina.webp">
+	<meta name="twitter:creator" content="@ninacarducci">
 	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
@@ -31,7 +44,7 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Nina Carducci",
-  "image": "https://nina-carducci.github.io/assets/images/nina.webp" width="1400px",
+  "image": "https://nina-carducci.github.io/assets/images/nina.webp",
   "jobTitle": "Photographe",
   "description": "Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée dans les portraits, les mariages et les concerts.",
   "url": "https://nina-carducci.github.io/",
@@ -39,8 +52,10 @@
     "https://www.instagram.com/ninacarducci.photo/?hl=fr"
   ],
   "address": {
-    "@type": "68 avenue Alsace-Lorraine, 33200 Bordeaux",
+    "@type": "PostalAddress",
+    "streetAddress": "68 avenue Alsace-Lorraine",
     "addressLocality": "Bordeaux",
+    "postalCode": "33200",
     "addressCountry": "FR"
   }
 }
@@ -57,7 +72,8 @@
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.webp" width="1400px" alt="logo instagram"></a></li>
+						target="_blank"><img src="assets/images/instagram.webp" width="1400px" alt="logo instagram"></a>
+				</li>
 			</ul>
 		</nav>
 	</header>
@@ -75,26 +91,29 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" width="1920px" height="887px" class="d-block w-100"
+					<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" width="1920px"
+						height="887px" class="d-block w-100"
 						alt="photographie d'un homme en costume machant sur des bandes noires et blanches">
 				</div>z
 				<div class="carousel-item">
-					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp"  width="1920px" height="887px" loading="lazy" class="d-block w-100"
+					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" width="1920px"
+						height="887px" loading="lazy" class="d-block w-100"
 						alt="photographique d'un groupe de fan de sport qui crient de joie" loading="lazy">
 				</div>
 				<div class="carousel-item">
-					<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"  width="1920px" height="887px" loading="lazy" class="d-block w-100"
+					<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" width="1920px"
+						height="887px" loading="lazy" class="d-block w-100"
 						alt="photo d'un couple pendant leurs mariage" loading="lazy">
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
 				data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="carousel-control-prev-icon"></span>
 				<span class="visually-hidden">Previous</span>
 			</button>
 			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
 				data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="carousel-control-next-icon"></span>
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
@@ -105,9 +124,9 @@
 		</div>
 		<div id="about-me">
 			<h2 class="about-me__title">A propos de moi</h2>
-			<h6 class="about-me__introduction">Devenir <strong>photographe</strong> était pour moi une évidence. Comme
+			<h3 class="about-me__introduction">Devenir <strong>photographe</strong> était pour moi une évidence. Comme
 				si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les
-				rendre immortels, voilà ce qui me fait vibrer.</h6>
+				rendre immortels, voilà ce qui me fait vibrer.</h3>
 			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le
 				figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux,
 				ou le partager au plus grand nombre.
@@ -122,41 +141,42 @@
 			<div class="gallery" style="display: none">
 				<!-- rajout des alt et loading lazy -->
 				<img data-gallery-tag="Concert" class="gallery-item"
-					src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" width="440px" height="440px"
-					alt="photographie d'un concert" loading="lazy" />
+					src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" width="440px"
+					height="440px" alt="photographie d'un concert" loading="lazy" />
 				<img data-gallery-tag="Entreprises" class="gallery-item"
-					src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"  width="440px" height="440px"
-					alt="photographie d'un homme en costume" loading="lazy" />
+					src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" width="440px"
+					height="440px" alt="photographie d'un homme en costume" loading="lazy" />
 				<img data-gallery-tag="Entreprises" class="gallery-item"
-					src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"  width="440px" height="440px"
-					alt="photographie d'une femme qui sourie" loading="lazy" />
+					src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" width="440px"
+					height="440px" alt="photographie d'une femme qui sourie" loading="lazy" />
 				<img data-gallery-tag="Mariages" class="gallery-item"
-					src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"  width="440px" height="440px"
-					alt="photographie de deux personnes qui se tiennent la main" loading="lazy" />
+					src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" width="440px"
+					height="440px" alt="photographie de deux personnes qui se tiennent la main" loading="lazy" />
 				<img data-gallery-tag="Portrait" class="gallery-item"
-					src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"  width="440px" height="440px"
-					alt="portait d'un homme." loading="lazy" />
+					src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" width="440px"
+					height="440px" alt="portait d'un homme." loading="lazy" />
 				<img data-gallery-tag="Mariages" class="gallery-item"
-					src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"  width="440px" height="440px"
-					alt="photographie d'un mari et sa mariée lors du mariage." loading="lazy" />
+					src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" width="440px"
+					height="440px" alt="photographie d'un mari et sa mariée lors du mariage." loading="lazy" />
 				<img data-gallery-tag="Portrait" class="gallery-item"
-					src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"  width="440px" height="440px"
-					alt="portrait d'une femme qui porte des lunettes." loading="lazy" />
+					src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" width="440px"
+					height="440px" alt="portrait d'une femme qui porte des lunettes." loading="lazy" />
 				<img data-gallery-tag="Concert" class="gallery-item"
-					src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"  width="440px" height="440px"
-					alt="photographie d'un artiste sur scene." />
+					src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" width="440px"
+					height="440px" alt="photographie d'un artiste sur scene." />
 				<img data-gallery-tag="Entreprises" class="gallery-item"
-					src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"  width="440px" height="440px"
-					alt="portrait d'une femme qui souris devant un ordinateur" loading="lazy" />
+					src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
+					width="440px" height="440px" alt="portrait d'une femme qui souris devant un ordinateur"
+					loading="lazy" />
 			</div>
 		</div>
 		<div class="quote">
 			<figure>
 				<blockquote>
-					<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
+					<h2 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
 						fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude
 						n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
-					</h1>
+					</h2>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
@@ -233,10 +253,10 @@
 		</div>
 	</div>
 	<footer>
-  <div class="footer-container">
-    <p>© 2025 Nina Carducci - Photographe à Bordeaux</p>
-  </div>
-</footer>
+		<div class="footer-container">
+			<p>© 2025 Nina Carducci - Photographe à Bordeaux</p>
+		</div>
+	</footer>
 </body>
 
 </html>
