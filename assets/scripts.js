@@ -13,3 +13,9 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.carousel-indicators button').forEach(btn => {
+    btn.style.width = '44px';
+    btn.style.height = '10px';
+  });
+});
